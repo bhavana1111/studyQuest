@@ -1,0 +1,9 @@
+.content{
+max-height:0;
+overflow:hidden;
+transition:max-height .4s;
+}
+
+.content.open{
+max-height:300px;
+}
